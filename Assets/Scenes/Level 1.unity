@@ -419,6 +419,7 @@ GameObject:
   - component: {fileID: 785409606}
   - component: {fileID: 785409608}
   - component: {fileID: 785409607}
+  - component: {fileID: 785409609}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -517,6 +518,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &785409609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785409605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f11b06b1545bf4fbc3445412926f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &944448591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4452120020671088963, guid: bf0a056c8970a3648a5ac9a19e452615, type: 3}
@@ -738,6 +751,7 @@ GameObject:
   - component: {fileID: 1272243362}
   - component: {fileID: 1272243364}
   - component: {fileID: 1272243363}
+  - component: {fileID: 1272243365}
   m_Layer: 0
   m_Name: trophy whole
   m_TagString: Untagged
@@ -836,6 +850,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1272243365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272243361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f11b06b1545bf4fbc3445412926f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1422700589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4452120020671088963, guid: bf0a056c8970a3648a5ac9a19e452615, type: 3}
