@@ -6,7 +6,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
 
-    [SerializeField] float speed = 4;
+    [Range(1f, 15f)] [SerializeField] float speed = 4;
     [SerializeField] float damage = 50f;
 
     void Update()
