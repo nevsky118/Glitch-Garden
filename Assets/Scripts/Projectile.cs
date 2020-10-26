@@ -5,9 +5,25 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-
+    GameObject projectilesParent;
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
     [Range(1f, 15f)] [SerializeField] float speed = 4;
     [SerializeField] float damage = 50f;
+
+
+    private void Start()
+    {
+        CreateProjectilesParent();
+    }
+
+    private void CreateProjectilesParent()
+    {
+        projectilesParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+        if (!projectilesParent)
+        {
+            projectilesParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
+    }
 
     void Update()
     {
